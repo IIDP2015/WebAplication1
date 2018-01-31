@@ -13,8 +13,20 @@ namespace WebApplication1
         {
             Subject subject = new Subject();
 
-            ddlRodzajPrzedmiotu.DataSource = subject.SubjectType;
-            ddlRodzajPrzedmiotu.DataBind();
+            if (!IsPostBack)
+            {
+                ddlRodzajPrzedmiotu.DataSource = subject.SubjectType;
+                ddlRodzajPrzedmiotu.DataBind();
+            }
+        }
+
+        protected void btnDodajPrzedmiot_Click(object sender, EventArgs e)
+        {
+            Session["przedmiot"] = txtPrzedmiot.Text;
+            Session["egzamin"] = cbxEgzamin.Checked;
+            Session["forma"] = ddlRodzajPrzedmiotu.SelectedValue;
+
+            Server.Transfer("ShowSubject.aspx", true);
         }
     }
 }

@@ -76,6 +76,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AddSubject.aspx" />
+    <Content Include="ShowSubject.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -87,6 +88,13 @@
       <DependentUpon>AddSubject.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ShowSubject.aspx.cs">
+      <DependentUpon>ShowSubject.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ShowSubject.aspx.designer.cs">
+      <DependentUpon>ShowSubject.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Subject.cs" />
   </ItemGroup>
   <PropertyGroup>

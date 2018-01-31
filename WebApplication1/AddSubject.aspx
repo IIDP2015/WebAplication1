@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title>Dodaj przedmiot</title>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -18,8 +18,9 @@
         </div>
         <div>
             <asp:Label ID="lblRodzajPrzedmiotu" runat="server" Text="Forma przedmiotu"></asp:Label>
-            <asp:DropDownList ID="ddlRodzajPrzedmiotu" runat="server"></asp:DropDownList>
+            <asp:DropDownList ID="ddlRodzajPrzedmiotu" runat="server" AutoPostBack="True"></asp:DropDownList>
         </div>
+        <asp:Button ID="btnDodajPrzedmiot" runat="server" Text="Dodaj Przedmiot" OnClick="btnDodajPrzedmiot_Click" />
     </form>
 </body>
 </html>

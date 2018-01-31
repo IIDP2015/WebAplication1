@@ -10,7 +10,7 @@
 namespace WebApplication1 {
     
     
-    public partial class AddSubject {
+    public partial class ShowSubject {
         
         /// <summary>
         /// form1 control.
@@ -31,15 +31,6 @@ namespace WebApplication1 {
         protected global::System.Web.UI.WebControls.Label lblPrzedmiot;
         
         /// <summary>
-        /// txtPrzedmiot control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtPrzedmiot;
-        
-        /// <summary>
         /// lblEgzamin control.
         /// </summary>
         /// <remarks>
@@ -49,39 +40,12 @@ namespace WebApplication1 {
         protected global::System.Web.UI.WebControls.Label lblEgzamin;
         
         /// <summary>
-        /// cbxEgzamin control.
+        /// lblForma control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox cbxEgzamin;
-        
-        /// <summary>
-        /// lblRodzajPrzedmiotu control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblRodzajPrzedmiotu;
-        
-        /// <summary>
-        /// ddlRodzajPrzedmiotu control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddlRodzajPrzedmiotu;
-        
-        /// <summary>
-        /// btnDodajPrzedmiot control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnDodajPrzedmiot;
+        protected global::System.Web.UI.WebControls.Label lblForma;
     }
 }
