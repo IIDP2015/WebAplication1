@@ -93,8 +93,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AddSubject.aspx" />
+    <Content Include="AddUser.aspx" />
     <Content Include="hibernate.cfg.xml" />
     <Content Include="ShowSubject.aspx" />
+    <Content Include="UserControl.ascx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -104,6 +106,13 @@
     </Compile>
     <Compile Include="AddSubject.aspx.designer.cs">
       <DependentUpon>AddSubject.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddUser.aspx.cs">
+      <DependentUpon>AddUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddUser.aspx.designer.cs">
+      <DependentUpon>AddUser.aspx</DependentUpon>
     </Compile>
     <Compile Include="NHibernateBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -115,6 +124,13 @@
       <DependentUpon>ShowSubject.aspx</DependentUpon>
     </Compile>
     <Compile Include="Subject.cs" />
+    <Compile Include="UserControl.ascx.cs">
+      <DependentUpon>UserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControl.ascx.designer.cs">
+      <DependentUpon>UserControl.ascx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
